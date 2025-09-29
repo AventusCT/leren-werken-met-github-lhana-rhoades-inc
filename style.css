@@ -1,32 +1,26 @@
-/* Dit is het stylesheet voor de GitHub Classroom Opdracht */
-
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #000000;
+
 }
 
-h1 {
-    color: #ff0000;
-    text-align: center;
-    margin-top: 20px;
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
 }
 
-table {
-    width: 60%;
-    margin: 20px auto;
-    border-collapse: collapse;
+
+
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background 0.3s;
 }
 
-table, th, td {
-    border: 1px solid #650303;
+nav ul li a:hover {
+  background-color: #555;
 }
-
-th, td {
-    padding: 10px;
-    text-align: left;
-}
-
-/* Student B zal hier extra stijlen toevoegen voor de ongeordende lijst */
