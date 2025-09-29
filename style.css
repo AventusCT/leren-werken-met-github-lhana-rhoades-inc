@@ -1,11 +1,5 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
 
-nav {
-  background-color: #c82828;
-  padding: 0.5rem 1rem;
 }
 
 nav ul {
@@ -16,9 +10,8 @@ nav ul {
   gap: 1rem;
 }
 
-nav ul li {
-  display: inline;
-}
+
+
 
 nav ul li a {
   color: white;
